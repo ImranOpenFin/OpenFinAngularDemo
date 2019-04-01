@@ -1,7 +1,7 @@
 
 ## Demo application
 
-Run `npm start` to install node module dependencies
+Run `npm install` to install node module dependencies
 
 Run `npm start` loads demo application of an Angular ToDo List Application with OpenFin.
 
