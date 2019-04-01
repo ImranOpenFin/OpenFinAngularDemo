@@ -1,0 +1,39 @@
+{
+    "devtools_port": 9095,
+    "offlineAccess": false,
+    "startup_app": {
+        "name": "OpenfinPOC-IMRAN",
+        "description": "OpenFin POC",
+        "loadErrorMessage": "This is a error message",
+        "url": "http://localhost:8080/",
+        "uuid": "OpenfinPOC-afa",
+        "enableAppLogging": true,
+        "backgroundColor": "#FFFF00",
+        "contextMenu": true,
+        "defaultTop": false,
+        "defaultCentered": false,
+        "frame": true,
+        "resizable": true,
+        "saveWindowState": false,
+        "autoShow": true,
+        "showTaskbarIcon": true,
+        "aspectRatioLocked": true,
+        "maximizable": false,
+        "plugins": true,
+        "minHeight": 152,
+        "minWidth": 235,
+        "maxHeight": 640,
+        "maxWidth": 392,
+        "applicationIcon": "http://localhost:8080/favicon.ico",
+        "logManagement": {
+            "enabled": true
+        }
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "9.61.38.40"
+    },
+    "shortcut": {
+        "icon": "http://localhost:8080/favicon.ico"
+    }
+}
