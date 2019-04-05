@@ -4,6 +4,8 @@ import {Todo} from './todos/todo';
 import {TodoDataService} from './todos/todo-data.service';
 import {Category} from './categories/category';
 
+console.log(fin.desktop.System.getVersion(console.log));
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -11,6 +13,7 @@ import {Category} from './categories/category';
   providers: [TodoDataService, CategoryDataService]
 
 })
+
 
 export class AppComponent implements OnInit {
 
@@ -27,6 +30,7 @@ export class AppComponent implements OnInit {
     this.todoDataService.addTodo(this.newTodo);
     this.newTodo = new Todo();
     console.log(this.todos);
+    console.log(this.addCategory);
   }
 
   toggleTodoComplete(todo: Todo) {
